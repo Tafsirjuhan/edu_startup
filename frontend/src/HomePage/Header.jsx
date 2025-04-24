@@ -1,7 +1,7 @@
 import axios from 'axios'; 
 import React, { useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import logo from '../assets/logo.png';
+import logo from '../../assets/Logo.png';
 
 function Header({ isLoggedIn, setIsLoggedIn, username, handleLogout }) {
   const location = useLocation();
